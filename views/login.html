@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>员工后台管理系统</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="../static/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../static/img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form class="login_form"  name = "login" action="/login" method="post">
+				<img src="../static/img/avatar.svg">
+				<h2 class="title">Login</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text"  class="input_txt" name = "userName" placeholder="用户名" >
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<input type="password"  class="input_txt" name = "passWord" placeholder="密码">
+            	   </div>
+            	</div>
+            	<a href="#">忘记密码？</a>
+            	<input type="submit" class="btn" value="登录">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+</body>
+</html>

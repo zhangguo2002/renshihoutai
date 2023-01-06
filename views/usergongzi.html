@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>员工信息后台管理系统</title>
+    <link rel="stylesheet" href="../static/css/font_1993937_f14i025p0ae.css">
+    <link rel="stylesheet" href="../static/css/AdminPage.css">
+    <link rel="icon" href="../static/images/admin_icon.png">
+</head>
+<body>
+    <div class="app">
+        <!-- 头部 -->
+        <header class="clearfix">
+            <div class="logo">
+                <i class="iconfont icon-weixin"></i>
+                <h2>员工信息后台管理系统</h2>
+            </div>
+            <div class="header-right">
+                <div class="nickname">欢迎员工</div>
+                <div class="login-out">
+                    <a href="./login.html">退出登录</a>
+                </div>
+            </div>
+        </header>
+        <div class="container clearfix">
+            <!-- 左边栏 -->
+            <aside class="left">
+                <ul>
+                    <li><a href="./userhoutai.html">员工资料</a></li>
+                    <li><a href="./usergongzi.html">员工工资统计</a></li>
+                </ul>
+            </aside>
+            <!-- 主体内容 -->
+            <div class="main clearfix">
+                <!-- 控制部分 -->
+                <div class="control">
+                    <div class="control-left">
+                        <input type="text" placeholder="请输入查找的内容">
+                        <button class="search">查找</button>
+                    </div>
+                </div>
+                <!-- 表格内容 -->
+                <table>
+                    <caption>员工工资统计</caption>
+                    <thead>
+                        <tr>
+                            <th>员工编号</th>
+                            <th>姓名</th>
+                            <th>岗位</th>
+                            <th>薪水</th>
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range.usergongzi}}
+                        <tr>
+                            <td>{{.Id}}</td>
+                            <td>{{.Name}}</td>
+                            <td>{{.Department}}</td>
+                            <td>{{.Salary}}</td>
+                        </tr>
+                        {{end}}
+                       
+                    </tbody>
+                   
+                </table>
+                <!-- 分页 -->
+                <div class="pager">
+                    <a href="" class="pager-last">上一页</a>
+                    <a href="" class="pager-selected">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="">6</a>
+                    <a href="">7</a>
+                    <a href="">8</a>
+                    <a href="">9</a>
+                    <a href="">10</a>
+                    <a href="" class="pager-next">下一页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

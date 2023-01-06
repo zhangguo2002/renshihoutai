@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1993937_f14i025p0ae.eot?t=1596882978401'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1993937_f14i025p0ae.eot?t=1596882978401#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPUAAsAAAAAB/QAAAOIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDWIMaATYCJAMMCwgABCAFhG0HPBvmBsgusG2cc3BsW+W/UZHfb9i9/YU8xFbx8O9+6H1JSgCyvqPjgVCozRL5GUl6ki0A6Ok/r11f5kPMJ7HIzDr7stlvVjDO1dXqxO5cXnkD51xE0tMr7I0/YIVlAp7owA0SqQkOObkFQoFpFEJbRzd/rcICK2uDxIm/BnqcBpTCmLT+53J6q8EBzQ+Uy5jL5uTeYYDHAYXR2JMSLGFsGLvyItYTaDQqELMhXVgJ9BRGt0CcbXA8oJeyKDXFoV6oLRlbFmNFW326mp4DwG3/9/EPCA+CpCYzNtp4PEsIUn8O/v+8rJYa84iR8Vxgk8hYBhRif6lnJ80wtkxTo6LRqs+uVYQ0VrA6vkRV1Zp/eCRB1DIKm8E8iid+OtiSWPsdys5aenOda9GEawB4JFq7GY2KuvYOIjRrHRoMP59XHN5b3/CSH/jgo63NB11BnaW1wVUbxaGnbL+Uqsaws/qd3a++b51/bFt/7Vh+nhweeFfWPHmD7/cd84ttyeWyFeznHZbZv2fw8ra9pB489XAyfTZ4OnUc17wwvTS4eDhfnftExre7/6p718LTts78pMfiTmxOrYnYov03LRKv48/h/zhw6ym/6c/7jodmZOP7tkw1YNWbH5n4tg4wnuePYh3jD1PoGjcEuixjzBOiB9a9VaDpvLR2PTAvCMxOuAamHOjYYpoRLQHcISZX799FF+rMlJqOtHMnk45H1+pKmEJAsovJcK6TB8Ag4Pw6N/igZkbvTaOxITXg6BnvqxVQ7T0M5gtA5fqq3P8Xt/PAytbk+MT/hAp4Vzm5+yXt89RLMOk/M5W+GuS/QpUb0VyAdLQtku2g+0ZMGs0AFQp0+tJf16MWEur1xJDUGYGs3jRaaMtQo8kK1Kq3Co2W5Exu0oXQFKUBi0YBhHZXkLR6CFm7l2ihfYYavf5CrfaAodH2sJyzyWw0qIw24lEkhMVO2BBgBWvZqUFQXI44tYxHknKfXY2IShyEnqzIJnOQApExBnTauPAuZWGVYDlMg82QTIZhk2AJEtDgOqXKeFfuy14UXMJyYGA9AuGhECGIrxMkJoApsC41ZZD7fjmEoybDQ2pIFcFqCKEirh4KEyy0BZqjUbQiXcslKm044SiKBbEITA7KBi5EZsYwSFneSgIRoIKJekSU4oWgcmxbTfD8OvnzrYBGxjE5UuQoGs41OtU8RZi/FoOKuEOsAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_1993937_f14i025p0ae.woff?t=1596882978401') format('woff'),
+  url('//at.alicdn.com/t/font_1993937_f14i025p0ae.ttf?t=1596882978401') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1993937_f14i025p0ae.svg?t=1596882978401#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ziyuan143:before {
+  content: "\e6e7";
+}
+
+.icon-weixin:before {
+  content: "\e61a";
+}
+

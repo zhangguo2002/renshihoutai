@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>员工信息后台管理系统</title>
+    <link rel="stylesheet" href="../static/css/font_1993937_f14i025p0ae.css">
+    <link rel="stylesheet" href="../static/css/AdminPage.css">
+    <link rel="icon" href="../static/images/admin_icon.png">
+</head>
+<body>
+    <div class="app">
+        <!-- 头部 -->
+        <header class="clearfix">
+            <div class="logo">
+                <i class="iconfont icon-weixin"></i>
+                <h2>员工信息后台管理系统</h2>
+            </div>
+            <div class="header-right">
+                <div class="nickname">欢迎员工</div>
+                <div class="login-out">
+                    <a href="./login.html">退出登录</a>
+                </div>
+            </div>
+        </header>
+        <div class="container clearfix">
+            <!-- 左边栏 -->
+            <aside class="left">
+                <ul>
+                    <li><a href="./adminhoutai.html">员工资料</a></li>
+                    <li><a href="./bumenxinxi.html">部门信息</a></li>
+                    <li><a href="./yuangonggongzi.html">员工工资统计</a></li>
+                    <li><a href="./ruzhixinxi.html">新入职员工信息录入</a></li>
+                   
+                </ul>
+            </aside>
+            <!-- 主体内容 -->
+            <div class="main clearfix">             
+                <form  class="update_form" name = "adminupdate" method="post" action="/adminupdate">
+                    <h1 class="update_title">入职信息</h1>
+                    <input type="text" placeholder="编号" class="input_txt" name="id">
+                    <input type="text" placeholder="姓名" class="input_txt" name = "name">
+                    <input type="text" placeholder="岗位" class="input_txt" name="department">
+                    <input type="text" placeholder="入职时间" class="input_txt" name="entrytime">
+                    <input type="text" placeholder="薪水" class="input_txt" name = "salary">
+                    <input type="submit" value="修 改" class="input_sub">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
